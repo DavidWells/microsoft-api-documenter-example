@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [@felix-kaestner/decorator](./decorator.md) |  |
+|  [microsoft-api-documenter-example](./microsoft-api-documenter-example.md) |  |
 

@@ -75,7 +75,7 @@
     /**
      * Whether to generate the tsdoc-metadata.json file.
      */
-    "enabled": false
+    "enabled": true
   },
 
   /**
