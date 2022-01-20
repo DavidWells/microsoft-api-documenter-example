@@ -10,5 +10,6 @@
 |  --- | --- |
 |  [final(constructor)](./microsoft-api-documenter-example.final.md) | Function to make the provided constructor sealed and immutable |
 |  [immutable(constructor)](./microsoft-api-documenter-example.immutable.md) | Function to make the provided constructor immutable |
+|  [run()](./microsoft-api-documenter-example.run.md) | Does xyz |
 |  [sealed(constructor)](./microsoft-api-documenter-example.sealed.md) | Function to seal the provided constructor |
 

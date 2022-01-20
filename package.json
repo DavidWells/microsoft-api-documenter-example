@@ -39,7 +39,9 @@
     "api:document": "api-documenter markdown --input-folder temp --output-folder docs",
     "api:git": "git add --renormalize types docs",
     "docs": "npm-run-all build:types api:extract api:document api:git",
-    "clean": "rimraf types temp dist coverage"
+    "clean": "rimraf types temp dist coverage",
+    "api-help": "api-documenter --help && api-documenter markdown --help",
+    "extract-help": "api-extractor --help && api-extractor run --help"
   },
   "devDependencies": {
     "@microsoft/api-documenter": "^7.14.1",

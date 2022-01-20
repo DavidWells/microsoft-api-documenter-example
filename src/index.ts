@@ -1,4 +1,8 @@
 /* eslint-disable @typescript-eslint/ban-types */
+import {run} from './runner'
+
+// Export functions to be included in API docs
+export {run}
 
 /**
  * Function to seal the provided constructor
@@ -33,6 +37,7 @@
 export function sealed(constructor: Function): void {
   Object.seal(constructor)
   Object.seal(constructor.prototype)
+  console.log(run)
 }
 
 /**
