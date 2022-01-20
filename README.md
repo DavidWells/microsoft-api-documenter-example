@@ -12,4 +12,4 @@ Install with `npm` or `yarn`:
 npm run docs
 ```
 
-View /docs folder
+View [docs](./docs) folder for generated docs
